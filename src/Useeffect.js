@@ -6,7 +6,7 @@ const Useeffect = () => {
   useEffect(() => {
     setTimeout(() => {
       setCount(count + 1);
-    }, 2000);
+    }, 1000);
   });
   return <>My effect is render {count}</>;
 };
